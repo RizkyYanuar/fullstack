@@ -1,0 +1,31 @@
+GET http://localhost:5000/users
+
+###
+
+GET http://localhost:5000/users/6526921842aac09024a4bdbb
+
+###
+
+POST  http://localhost:5000/users
+Content-Type: application/json 
+
+{
+    "nama": "asiap",
+    "email": "asiap@gmail.com",
+    "gender": "wanita"
+}
+
+###
+
+PATCH   http://localhost:5000/users/6526921842aac09024a4bdbb
+Content-Type: application/json 
+
+{
+    "nama": "apacoba",
+    "email": "apacoba@gmail.com",
+    "gender": "wanita"
+}
+
+### 
+
+DELETE   http://localhost:5000/users/6526921842aac09024a4bdbb
